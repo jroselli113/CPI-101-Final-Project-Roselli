@@ -1,5 +1,5 @@
 var groceryArray =  [
-					["Safeway ", "https://www.safeway.com/faq/covid-19-faq.html"],
+					["Safeway ", "https://www.safeway.com/faq/covid-19-faq.html"], 
 					["Fry's ", "https://www.frysfood.com/i/coronavirus-update"],
 					["Target ", "https://corporate.target.com/about/purpose-history/our-commitments/target-coronavirus-hub"],
 
@@ -7,8 +7,8 @@ var groceryArray =  [
 
 var restArray = [
 				["Chick-fil-a", "https://www.chick-fil-a.com/covid"],
-				["P.F. Chang's", "https://www.pfchangs.com/updates"],
-				["Five Guys", "https://www.fiveguys.com/covid-19-statement"],
+				["P.F. Chang's", "https://www.pfchangs.com/updates"],				// Do you think doing our project in this way will work?
+				["Five Guys", "https://www.fiveguys.com/covid-19-statement"],  		// I'm not sure the best way to go about implementing our idea, so feel free to alter this as much as you want
 				];
 
 var allArray = groceryArray.concat(restArray);
