@@ -1,9 +1,57 @@
-body {background-color: lightblue;}
-h1 {color: black;}
+body {
+	background-color: lightblue;
+}
+
+h1 {
+	color: black;
+}
+
 p {
 	width: 30%;
 }
 
 a {
 	padding: 10px;
+}
+
+#rectangle {
+	border-radius: 25px;
+	width: 90%;
+	height: 80%;
+	background: #6495ED;
+}
+
+html, body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 5%;
+}
+
+.navBar {
+	background-color: #FFFAF0;
+	overflow: hidden;
+	margin-top: 4%;
+	position: absolute;
+}
+
+.navBar a {
+	float: left;
+  	color: black;
+ 	text-align: center;
+ 	padding: 18px 10px;
+ 	text-decoration: none;
+  	font-size: 18px;
+	margin-left: 5vw;
+	margin-right: 9.55vw;
+}
+
+.navBar a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.navBar a.active {
+	background-color: #4CAF50;
+	color: white;
 }
