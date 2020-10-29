@@ -9,13 +9,15 @@
 	</script>
 </head>
 <body>
-	<a href="index.html">Home Page</a>
-	<a href="CovidPolicies.html">COVID Policies</a>
-	<a href="about.html">About Page</a>
+	<div class = "navBar">
+		<a href="index.html">Home Page</a>
+		<a href="CovidPolicies.html">COVID Policies</a>
+		<a href="about.html">About Page</a>
+	</div>
 
 	<h1>COVID Policies of stores around ASU</h1>
 
-	<div>
+	<div id ="rectangle">
 		<form>
 			<input type="radio" id="all" name="selection" value="all">   
 			<label for="all">All</label><br>
@@ -24,15 +26,13 @@
 			<input type="radio" id="restaurant" name="selection" value="restaurant">
 			<label for="restaurant">Restaurants</label>
 		</form>
-	</div>
-
-	<div>
 		<form>
 			<input type="button" value="Search" onclick="search()">
 		</form>
-	</div>
+	
+		<p id="out"></p>
 
-	<p><span id="out"></span></p>
+	</div>
 
 </body>
 </html>
