@@ -4,6 +4,9 @@
 	<link rel="stylesheet" href="style.css">
 	<link href="policies.js">
 	<title></title>
+	<script language="JavaScript" 
+		src="policies.js"> 
+	</script>
 </head>
 <body>
 	<a href="index.html">Home Page</a>
@@ -13,19 +16,23 @@
 	<h1>COVID Policies of stores around ASU</h1>
 
 	<div>
-	<form>
-		<input type="radio" id="all" name="selection" value="all">   
-		<label for="all">All</label><br>
-		<input type="radio" id="grocery" name="selection" value="grocery">
-		<label for="grocery">Grocery Stores</label><br>
-		<input type="radio" id="restaurant" name="selection" value="restaurant">
-		<label for="restaurant">Restaurants</label>
-	</form>
+		<form>
+			<input type="radio" id="all" name="selection" value="all">   
+			<label for="all">All</label><br>
+			<input type="radio" id="grocery" name="selection" value="grocery">
+			<label for="grocery">Grocery Stores</label><br>
+			<input type="radio" id="restaurant" name="selection" value="restaurant">
+			<label for="restaurant">Restaurants</label>
+		</form>
 	</div>
 
-	<form>
-		<input type="button" value="Search" onclick="search()">
-	</form>
+	<div>
+		<form>
+			<input type="button" value="Search" onclick="search()">
+		</form>
+	</div>
+
+	<p><span id="out"></span></p>
 
 </body>
 </html>
